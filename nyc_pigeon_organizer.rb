@@ -3,8 +3,8 @@ require 'pry'
 
 def nyc_pigeon_organizer(data)
   # binding.pry
-  # name = {}
+  name = {}
   index = 0 
-  name << { data.each {|names, index| puts names[index]} }
+  name << data.each {|names, index| puts names[index]} 
  
 end
