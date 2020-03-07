@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
   name = {}
   index = 0 
   data.each do |names, index| 
-    name << #{names[index]} 
+    name[#{names[index]}] = ""
   end
  name 
 end
